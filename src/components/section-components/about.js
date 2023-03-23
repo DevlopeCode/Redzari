@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
+import '../global-components/navbar-v5.css'
 
 class About extends Component {
 
@@ -32,9 +33,8 @@ class About extends Component {
 					<div className="col-lg-7">
 						<div className="thumb">
 							{/* <img src={publicUrl+"assets/img/others/about.png" }alt="" /> */}
-							<ReactPlayer url='https://www.youtube.com/watch?v=R3bC0ThQ2pM' controls={false} />
-
-
+							<ReactPlayer url='https://www.youtube.com/watch?v=R3bC0ThQ2pM' className="about-vid" controls={false} />
+							<ReactPlayer url='https://www.youtube.com/watch?v=R3bC0ThQ2pM' className="about-vid-responsive" controls={false} width={380} height={200} />
 							{/* video button */}
 							{/* <div className="video-btn-style-01">
 			            <a href="#"><i className="fa fa-play" /></a>

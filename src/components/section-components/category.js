@@ -10,13 +10,13 @@ const Category = () => {
 		<div className='category-main'>
 			<div
 				className='category-demo'
-				style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", height: "550px", margin: "0px 0px 0px 60px", width: "1200px" }}>
+				style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", height: "620px", margin: "0px 0px 0px 60px" }}>
 
 				<div>
 					<h5 style={{ color: "white", padding: "20px 0px 0px 0px", color: "#FF8E78" }} >Category</h5>
 					<div
 						className='category-div'
-						style={{ display: "flex", flexDirection: "row", width: "130px" }}>
+						style={{ display: "flex", flexDirection: "column", width: "130px" }}>
 						<ul style={{ listStyle: "none" }}>
 							<Link to="/collection" ><li>Anarkali</li></Link>
 							<Link></Link><li>Saree</li>
