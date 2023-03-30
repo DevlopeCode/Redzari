@@ -237,16 +237,14 @@ class NavbarV5 extends Component {
 											<div className="select-menu">
 												<select className="menu-select">
 													<option>English</option>
-													<option>Bangali</option>
 												</select>
-												<i className="fa fa-chevron-down" />
 											</div>
 										</li>
 										<li>
 											<div className="select-menu">
 												<select className="menu-select">
-													<option>USD</option>
 													<option>IND</option>
+													<option>USD</option>
 												</select>
 												<i className="fa fa-chevron-down" />
 											</div>
@@ -254,8 +252,8 @@ class NavbarV5 extends Component {
 										<li>
 											<a href="#"><i className="icon-user" /></a>
 											<ul className="user-dropdown">
-												<li><a href="#">Sign In | Join</a></li>
-												<li><a href="#"><i className="icon-user" /> My Account</a></li>
+												<Link to="/login" ><li><a href="#">Sign In | Join</a></li></Link>
+												<Link to="/account" ><li><a href="#"><i className="icon-user" /> My Account</a></li></Link>
 												<li><a href="#"><i className="fa fa-briefcase" /> My Orders</a></li>
 												<li><a href="#"><i className="fa fa-reply" /> Returns Information</a></li>
 												<li><a href="#"><i className="fa fa-commenting-o" /> Contact Preferences</a></li>
@@ -279,31 +277,17 @@ class NavbarV5 extends Component {
 								<div className="collapse navbar-collapse" id="shop-menu">
 									<ul className="navbar-nav menu-open">
 										<li className="menu-item-has-children">
-											<a href="#">Home
-												{/* <i className="fa fa-angle-down" /> */}
-											</a>
-											{/* <ul className="sub-menu">
-                            <li><Link to="/">Home 01</Link></li>
-                            <li><Link to="/home-v2">Home 02</Link></li>
-                            <li><Link to="/home-v3">Home 03</Link></li>
-                            <li><Link to="/home-v4">Home 04</Link></li>
-                            <li><Link to="/home-v5">Home 05</Link></li>
-                          </ul> */}
+											<a href="#">Home</a>
 										</li>
 										<li className='shop-btn'> <Link>
 											{/* <Link to='/collection' className='shop-btn' >Shop <i className="fa fa-angle-down" /></Link> */}
 											<a href="#"  >Shop <i className="fa fa-angle-down" />
-
-												{/* <li><Link to="/collection">Shop Grid</Link></li> */}
-												{/* <li><Link to="collection-list">Shop List</Link></li>
-												<li><Link to="collection-full">Shop Full</Link></li> */}
-
 												{/* <ul className="sub-menu">
 												<li><Category /></li>
 											</ul> */}
-												<div className='navbar-div' >
-
-													<div className='shop-drop' ><Category /></div>
+												<div
+												// className='navbar-div'
+												><div className='shop-drop' ><Category /></div>
 												</div></a>
 
 										</Link>

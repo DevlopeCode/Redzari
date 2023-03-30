@@ -57,8 +57,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0255.JPG" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -88,8 +88,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0232.JPG" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -120,8 +120,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0286.JPG" data-name="Two-Tone Sleeveless Dress" data-price="15" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -150,8 +150,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0279.JPG" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -181,8 +181,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0244.JPG" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -214,8 +214,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0227.JPG" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -248,8 +248,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0286.JPG" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -279,8 +279,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0268.JPG" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -310,8 +310,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0232.JPG" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -341,8 +341,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0255.JPG" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -372,8 +372,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0298.JPG" data-name="FPlaid Cotton Oxford Shirt" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -404,8 +404,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0260.JPG" data-name="Two-Tone Sleeveless Dress" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -439,8 +439,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0246.JPG" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -471,8 +471,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0279.JPG" data-name="Two-Tone Sleeveless Dress" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -502,8 +502,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0203.JPG" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -533,8 +533,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0244.JPG" data-name="Faxon Canvas Low-Top Sneaker" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -563,8 +563,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0298.JPG" data-name="Viscose-Cashmere Scarf" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>
@@ -594,8 +594,8 @@ class NewArivalV2 extends Component {
                       <div className="content-hover-cart"><a className="add-to-cart" data-img="assets/redzari/redzari/DSC_0208.JPG" data-name="Round neck sweater" data-price="450" href="#"><i className="icon-add-to-cat" /> Add to cart</a></div>
                       <div className="content-cart"><a href="#"><i className="icon-add-to-cat" /></a></div>
                       <div className="content-price d-flex flex-column align-self-center">
-                        <span className="old-price">$400.00</span>
-                        <span className="new-price">$450.00</span>
+                        <span className="old-price">Rs400.00</span>
+                        <span className="new-price">Rs450.00</span>
                       </div>
                     </div>
                   </div>

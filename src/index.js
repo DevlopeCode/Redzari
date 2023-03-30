@@ -18,37 +18,45 @@ import Collection from './components/collection';
 import CollectionList from './components/collection-list';
 import CollectionFull from './components/collection-full';
 import Contact from './components/contact';
+import Login from './components/login';
+import { Provider } from 'react-redux'
+import { store } from '../src/components/redux/Store';
+import Account from './components/account';
 
 
 class Root extends Component {
     render() {
         return (
-            <Router>
-                <HashRouter basename="/">
-                    <div>
-                        <Switch>
-                            <Route exact path="/" component={HomeV5} />
-                            {/* <Route path="/home-v2" component={HomeV2} />
+            <Provider store={store}>
+                <Router>
+                    <HashRouter basename="/">
+                        <div>
+                            <Switch>
+                                <Route exact path="/" component={HomeV5} />
+                                <Route path="/login" component={Login} />
+                                <Route path="/account" component={Account} />
+                                {/* <Route path="/home-v2" component={HomeV2} />
                             <Route path="/home-v3" component={HomeV3} />
                             <Route path="/home-v4" component={HomeV4} />
                             <Route path="/home-v5" component={HomeV5} /> */}
-                            {/* <Route path="/" component={HomeV5} /> */}
-                            <Route path="/about" component={About} />
-                            <Route path="/blog" component={Blog} />
-                            <Route path="/blog-details" component={BlogDetails} />
-                            <Route path="/product-details" component={SingleProducts} />
-                            <Route path="/shoping-cart" component={ShoppingCart} />
-                            <Route path="/faq" component={Faq} />
-                            <Route path="/error" component={Error} />
-                            <Route path="/comming-soon" component={CommingSoon} />
-                            <Route path="/collection" component={Collection} />
-                            <Route path="/collection-list" component={CollectionList} />
-                            <Route path="/collection-full" component={CollectionFull} />
-                            <Route path="/contact" component={Contact} />
-                        </Switch>
-                    </div>
-                </HashRouter>
-            </Router>
+                                {/* <Route path="/" component={HomeV5} /> */}
+                                <Route path="/about" component={About} />
+                                <Route path="/blog" component={Blog} />
+                                <Route path="/blog-details" component={BlogDetails} />
+                                <Route path="/product-details" component={SingleProducts} />
+                                <Route path="/shoping-cart" component={ShoppingCart} />
+                                <Route path="/faq" component={Faq} />
+                                <Route path="/error" component={Error} />
+                                <Route path="/comming-soon" component={CommingSoon} />
+                                <Route path="/collection" component={Collection} />
+                                <Route path="/collection-list" component={CollectionList} />
+                                <Route path="/collection-full" component={CollectionFull} />
+                                <Route path="/contact" component={Contact} />
+                            </Switch>
+                        </div>
+                    </HashRouter>
+                </Router>
+            </Provider>
         )
     }
 }

@@ -39,6 +39,13 @@
 }
 
 
+.img {
+	width: 500px;
+	height: 700px;
+	margin-left: 30%;
+	margin-top: 100px;
+}
+
 @media only screen and (max-width: 400px) {
 
 	.shop-btn:hover .shop-drop {
@@ -109,6 +116,13 @@
 
 	.about-vid-responsive {
 		display: block;
+	}
+
+	.img {
+		width: 200px;
+		height: 300px;
+		/* margin-left: 30%; */
+		margin-top: 100px;
 	}
 
 

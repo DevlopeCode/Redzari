@@ -2,11 +2,14 @@ import React from 'react'
 import ReactDOM from 'react-dom';
 import Navigator from './src';
 import reportWebVitals from './reportWebVitals';
-
+import { Provider } from 'react-redux'
+import { store } from './src/components/redux/Store';
 
 export default function App() {
     return (
-        <Navigator />
+        <Provider store={store}>
+            <Navigator />
+        </Provider>
     )
 }
 

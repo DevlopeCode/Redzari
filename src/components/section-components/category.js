@@ -12,25 +12,24 @@ const Category = () => {
 				className='category-demo'
 				style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", height: "620px", margin: "0px 0px 0px 60px" }}>
 
-				<div>
+				<div style={{ margin: "0px" }} >
 					<h5 style={{ color: "white", padding: "20px 0px 0px 0px", color: "#FF8E78" }} >Category</h5>
 					<div
 						className='category-div'
 						style={{ display: "flex", flexDirection: "column", width: "130px" }}>
 						<ul style={{ listStyle: "none" }}>
-							<Link to="/collection" ><li>Anarkali</li></Link>
-							<Link></Link><li>Saree</li>
-							<li>Lehangas</li>
-							<li>Co-ords</li>
-							<li>Bottoms</li>
-							<li>Dresses</li>
-							<li>Kurtis</li>
+							<Link to="/collection" ><li style={{ fontSize: "12px" }} >Anarkali</li></Link>
+							<Link to="/collection" ><li style={{ fontSize: "12px" }} >Saree</li></Link>
+							<Link to="/collection" ><li style={{ fontSize: "12px" }} >Lehangas</li></Link>
+							<Link to="/collection" ><li style={{ fontSize: "12px" }} >Co-ords</li></Link>
+							<Link to="/collection" ><li style={{ fontSize: "12px" }} >Bottoms</li></Link>
+							<Link to="/collection" ><li style={{ fontSize: "12px" }} >Dresses</li></Link>
+							<Link to="/collection" ><li style={{ fontSize: "12px" }} >Kurtis</li></Link>
+							<Link to="/collection" ><li style={{ fontSize: "12px" }} >Gowns</li></Link>
+							<Link to="/collection" ><li style={{ fontSize: "12px" }} >Kaftans</li></Link>
+							<Link to="/collection" ><li style={{ fontSize: "12px" }} >Sharara Sets </li></Link>
 						</ul>
-						<ul style={{ listStyle: "none" }} >
-							<li>Gowns</li>
-							<li>Kaftans</li>
-							<li>Sharara Sets </li>
-						</ul>
+
 						{/* <ul style={{ listStyle: "none" }} >
 							<li>Sarees</li>
 							<li>Sharara</li>
@@ -46,15 +45,15 @@ const Category = () => {
 					<h5 style={{ color: "white", padding: "20px 0px 0px 0px", color: "#FF8E78" }} >Trending</h5>
 					<div className='category-div2' style={{ width: "150px" }} >
 						<ul style={{ listStyle: "none" }} >
-							<li>Contemporary clothing</li>
-							<li>Ethnic</li>
-							<li>Resort Wear</li>
-							<li>Bridal</li>
-							<li>Office Traditional</li>
-							<li>office Western</li>
-							<li>Haldi</li>
-							<li>Mehandi</li>
-							<li>Cocktail</li>
+							<li style={{ fontSize: "12px" }} >Contemporary clothing</li>
+							<li style={{ fontSize: "12px" }} >Ethnic</li>
+							<li style={{ fontSize: "12px" }} >Resort Wear</li>
+							<li style={{ fontSize: "12px" }} >Bridal</li>
+							<li style={{ fontSize: "12px" }} >Office Traditional</li>
+							<li style={{ fontSize: "12px" }} >office Western</li>
+							<li style={{ fontSize: "12px" }} >Haldi</li>
+							<li style={{ fontSize: "12px" }} >Mehandi</li>
+							<li style={{ fontSize: "12px" }} >Cocktail</li>
 						</ul>
 					</div>
 				</div>
