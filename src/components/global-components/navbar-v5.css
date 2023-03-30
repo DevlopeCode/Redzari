@@ -1,8 +1,7 @@
 .shop-btn:hover .shop-drop {
 	display: block;
-	/* font-size: 100px; */
 	width: 1400px;
-	/* width: 100vh; */
+	padding: 0px;
 }
 
 .shop-drop {
@@ -10,9 +9,9 @@
 	position: absolute;
 	background-color: black;
 	width: 1400px;
-	/* width: 100vh; */
 	margin-left: -550px;
 	z-index: 999;
+	padding: 0px;
 }
 
 .youtube-small {
@@ -46,6 +45,8 @@
 	margin-top: 100px;
 }
 
+
+
 @media only screen and (max-width: 400px) {
 
 	.shop-btn:hover .shop-drop {
@@ -67,7 +68,6 @@
 		background-color: #404040;
 		width: 330px;
 		z-index: 9999;
-		margin-left: -20px;
 		box-shadow: 2px 2px 3px black;
 	}
 

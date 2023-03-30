@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import img from "../../assets2/redzari2.png"
+import img from "../../assets/logo/Delivery/Png/Ver 1/Logo White-02.png"
 import Category from '../section-components/category';
 import './navbar-v5.css'
 
@@ -279,18 +279,20 @@ class NavbarV5 extends Component {
 										<li className="menu-item-has-children">
 											<a href="#">Home</a>
 										</li>
-										<li className='shop-btn'> <Link>
-											{/* <Link to='/collection' className='shop-btn' >Shop <i className="fa fa-angle-down" /></Link> */}
-											<a href="#"  >Shop <i className="fa fa-angle-down" />
-												{/* <ul className="sub-menu">
-												<li><Category /></li>
-											</ul> */}
-												<div
-												// className='navbar-div'
-												><div className='shop-drop' ><Category /></div>
-												</div></a>
+										<li className='shop-btn sub-menu'>
+											<Link>
+												{/* <Link to='/collection' className='shop-btn' >Shop <i className="fa fa-angle-down" /></Link> */}
+												<a href="#"  >Shop <i className="fa fa-angle-down" />
+													{/* <ul className="sub-menu">
+														<li><Category /></li>
+													</ul> */}
+													<div
+													// className='navbar-div'
+													>
+														<div className='shop-drop' ><Category /></div>
+													</div></a>
 
-										</Link>
+											</Link>
 
 										</li>
 										{/* <li className="menu-item-has-children">
