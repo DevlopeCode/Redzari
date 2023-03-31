@@ -22,6 +22,8 @@ import Login from './components/login';
 import { Provider } from 'react-redux'
 import { store } from '../src/components/redux/Store';
 import Account from './components/account';
+import Address from './components/section-components/address';
+import Profile from './components/section-components/profile';
 
 
 class Root extends Component {
@@ -35,11 +37,8 @@ class Root extends Component {
                                 <Route exact path="/" component={HomeV5} />
                                 <Route path="/login" component={Login} />
                                 <Route path="/account" component={Account} />
-                                {/* <Route path="/home-v2" component={HomeV2} />
-                            <Route path="/home-v3" component={HomeV3} />
-                            <Route path="/home-v4" component={HomeV4} />
-                            <Route path="/home-v5" component={HomeV5} /> */}
-                                {/* <Route path="/" component={HomeV5} /> */}
+                                {/* <Route path="/account/address" component={Address} />
+                                <Route path='/account/Profile' component={Profile} /> */}
                                 <Route path="/about" component={About} />
                                 <Route path="/blog" component={Blog} />
                                 <Route path="/blog-details" component={BlogDetails} />

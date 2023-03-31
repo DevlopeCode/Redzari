@@ -279,7 +279,7 @@ class NavbarV5 extends Component {
 										<li className="menu-item-has-children">
 											<a href="#">Home</a>
 										</li>
-										<li className='shop-btn sub-menu'>
+										<li className='shop-btn'>
 											<Link>
 												{/* <Link to='/collection' className='shop-btn' >Shop <i className="fa fa-angle-down" /></Link> */}
 												<a href="#"  >Shop <i className="fa fa-angle-down" />
