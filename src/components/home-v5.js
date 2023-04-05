@@ -19,7 +19,6 @@ import Carousal2 from './section-components/carousal2';
 
 const Home_V5 = () => {
     return <div>
-        <Category />
         <NavbarV5 />
         <Sliderv5 />
         {/* <CollectionSliderV2 /> */}

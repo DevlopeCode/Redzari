@@ -276,24 +276,17 @@ class NavbarV5 extends Component {
 							<div className="col-lg-6 order-3 order-lg-2">
 								<div className="collapse navbar-collapse" id="shop-menu">
 									<ul className="navbar-nav menu-open">
-										<li className="menu-item-has-children">
+										<li>
 											<a href="#">Home</a>
 										</li>
 										<li className='shop-btn'>
 											<Link>
-												{/* <Link to='/collection' className='shop-btn' >Shop <i className="fa fa-angle-down" /></Link> */}
 												<a href="#"  >Shop <i className="fa fa-angle-down" />
-													{/* <ul className="sub-menu">
-														<li><Category /></li>
-													</ul> */}
-													<div
-													// className='navbar-div'
-													>
+													<div>
 														<div className='shop-drop' ><Category /></div>
-													</div></a>
-
+													</div>
+												</a>
 											</Link>
-
 										</li>
 										{/* <li className="menu-item-has-children">
 											<a href="#">Pages <i className="fa fa-angle-down" /></a>
