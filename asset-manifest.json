@@ -1,15 +1,35 @@
 {
   "files": {
-    "main.css": "/Redzari/static/css/main.f4bff8aa.css",
-    "main.js": "/Redzari/static/js/main.88e0aca3.js",
-    "static/media/category.jpg": "/Redzari/static/media/category.bc883481119aff2ca978.jpg",
-    "static/media/redzari2.png": "/Redzari/static/media/redzari2.42479c93447374c1e9d8.png",
-    "index.html": "/Redzari/index.html",
-    "main.f4bff8aa.css.map": "/Redzari/static/css/main.f4bff8aa.css.map",
-    "main.88e0aca3.js.map": "/Redzari/static/js/main.88e0aca3.js.map"
+    "main.css": "/REDZARI/static/css/main.b5fb6b0e.css",
+    "main.js": "/REDZARI/static/js/main.8d28c3bc.js",
+    "static/media/DSC_0314.JPG": "/REDZARI/static/media/DSC_0314.a80469c5647e72d9b4be.JPG",
+    "static/media/DSC_0308.JPG": "/REDZARI/static/media/DSC_0308.6e498164cef8d5a81640.JPG",
+    "static/media/DSC_0307.JPG": "/REDZARI/static/media/DSC_0307.c054b6172756d173dd09.JPG",
+    "static/media/DSC_0313.JPG": "/REDZARI/static/media/DSC_0313.e5bfb074541f924ef697.JPG",
+    "static/media/DSC_0200.JPG": "/REDZARI/static/media/DSC_0200.05452490ba205758bf84.JPG",
+    "static/media/DSC_0156.JPG": "/REDZARI/static/media/DSC_0156.f70960a60bc42339378f.JPG",
+    "static/media/DSC_0191.JPG": "/REDZARI/static/media/DSC_0191.635c6497ede4e4cce8e7.JPG",
+    "static/media/DSC_0203.JPG": "/REDZARI/static/media/DSC_0203.bcc5a047eb77af0bce5f.JPG",
+    "static/media/DSC_0286.JPG": "/REDZARI/static/media/DSC_0286.6a28fcac95de85eeb303.JPG",
+    "static/media/DSC_0279.JPG": "/REDZARI/static/media/DSC_0279.a8f4b29c6ff2973cbb4f.JPG",
+    "static/media/DSC_0208.JPG": "/REDZARI/static/media/DSC_0208.fcff111f1586ed6c09e5.JPG",
+    "static/media/DSC_0241.JPG": "/REDZARI/static/media/DSC_0241.209d4f41f3119fb6ce5f.JPG",
+    "static/media/DSC_0260.JPG": "/REDZARI/static/media/DSC_0260.8bb4015b97e6985dc0f4.JPG",
+    "static/media/DSC_0268.JPG": "/REDZARI/static/media/DSC_0268.457e84599bfddc3653a8.JPG",
+    "static/media/red-silk.jpg": "/REDZARI/static/media/red-silk.e693b1dd0b9c2ce9b0aa.jpg",
+    "static/media/Lehenga.jpg": "/REDZARI/static/media/Lehenga.64e213868677e2ef7a76.jpg",
+    "static/media/saree.jpg": "/REDZARI/static/media/saree.6965f9d5cfba46f15f1d.jpg",
+    "static/media/designer.jpeg": "/REDZARI/static/media/designer.6368ca5623ed766041bf.jpeg",
+    "static/media/category.jpg": "/REDZARI/static/media/category.bc883481119aff2ca978.jpg",
+    "static/media/Logo White-02.png": "/REDZARI/static/media/Logo White-02.d02a1b2614d749d0de72.png",
+    "static/media/redzari2.png": "/REDZARI/static/media/redzari2.42479c93447374c1e9d8.png",
+    "static/media/profile-pic-male.svg": "/REDZARI/static/media/profile-pic-male.4811a148257b13564492636137bab61f.svg",
+    "index.html": "/REDZARI/index.html",
+    "main.b5fb6b0e.css.map": "/REDZARI/static/css/main.b5fb6b0e.css.map",
+    "main.8d28c3bc.js.map": "/REDZARI/static/js/main.8d28c3bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4bff8aa.css",
-    "static/js/main.88e0aca3.js"
+    "static/css/main.b5fb6b0e.css",
+    "static/js/main.8d28c3bc.js"
   ]
 }
