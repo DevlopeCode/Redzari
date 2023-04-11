@@ -13,7 +13,7 @@ export default function App() {
     )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('stoon'));
 // reportWebVitals();
 // const root = ReactDOM.createRoot(document.getElementById('stoon'));
 // root.render(
