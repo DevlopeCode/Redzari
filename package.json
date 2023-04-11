@@ -1,7 +1,7 @@
 {
-  "name": "stone",
+  "name": "redzari",
   "version": "0.1.0",
-  "homepage": "https://darkknight1599.github.io/REDZARI",
+  "homepage": "https://redzari.in",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
