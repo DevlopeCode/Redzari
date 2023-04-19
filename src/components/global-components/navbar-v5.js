@@ -288,6 +288,8 @@ class NavbarV5 extends Component {
 												</a>
 											</Link>
 										</li>
+										<li><Link to="/rent">Rent</Link></li>
+
 										{/* <li className="menu-item-has-children">
 											<a href="#">Pages <i className="fa fa-angle-down" /></a>
 											<ul className="sub-menu">

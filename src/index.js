@@ -24,6 +24,7 @@ import { store } from '../src/components/redux/Store';
 import Account from './components/account';
 import Address from './components/section-components/address';
 import Profile from './components/section-components/profile';
+import Rent from './components/rent';
 
 
 class Root extends Component {
@@ -37,6 +38,7 @@ class Root extends Component {
                                 <Route exact path="/" component={HomeV5} />
                                 <Route path="/login" component={Login} />
                                 <Route path="/account" component={Account} />
+                                <Route path='/rent' component={Rent} />
                                 {/* <Route path="/account/address" component={Address} />
                                 <Route path='/account/Profile' component={Profile} /> */}
                                 <Route path="/about" component={About} />

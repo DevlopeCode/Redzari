@@ -15,15 +15,22 @@ import { ReactPhotoCollage } from "react-photo-collage";
 import { setting } from './section-components/collage';
 import Category from './section-components/category';
 import Carousal2 from './section-components/carousal2';
+import SimpleSlider from './section-components/slickSlider';
+import SimpleSlider2 from './section-components/carousel';
+import LatestArticle from './section-components/latest-article';
+import LatestArticleSlider from './section-components/latestArticleSlider';
 
 
 const Home_V5 = () => {
     return <div>
         <NavbarV5 />
-        <Sliderv5 />
+        <SimpleSlider2 />
+        {/* <Sliderv5 /> */}
         {/* <CollectionSliderV2 /> */}
-        <Carousal2 />
-        <LatestArticleV5 />
+        <SimpleSlider />
+        {/* <Carousal2 /> */}
+        {/* <LatestArticleV5 /> */}
+        <LatestArticleSlider />
         <ReactPhotoCollage {...setting} />
         <NewArrivalV2 customclass="padding-top-85" />
         <VideoV3 />

@@ -52,7 +52,7 @@ const Carousal2 = () => {
 						{items.map((item) => (
 							<Item key={item}>
 								{/* {item} */}
-								<img src={item} />
+								<img src={item} height="500px" width='300px' />
 							</Item>
 						))}
 					</Carousel>

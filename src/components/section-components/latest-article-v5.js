@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import img1 from '../../assets/redzari/redzari/DSC_0191.JPG'
+import img2 from '../../assets/redzari/redzari/DSC_0279.JPG'
+import img3 from '../../assets/redzari/redzari/DSC_0255.JPG'
+import img4 from '../../assets/redzari/redzari/DSC_0227.JPG'
 import parse from 'html-react-parser';
 // import img1 from ''
 
@@ -34,7 +38,7 @@ class LatestArticleV5 extends Component {
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div className="article-style-02">
               <div className="thumb">
-                <img src={publicUrl + "assets/redzari/redzari/DSC_00155.jpg"} width="260px" height="400px" alt="" />
+                <img src={img1} width="260px" height="400px" alt="" />
               </div>
               <div className="content">
                 {/* <span className="date pink-date">{date}</span> */}
@@ -49,7 +53,7 @@ class LatestArticleV5 extends Component {
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div className="article-style-02">
               <div className="thumb">
-                <img src={publicUrl + "assets/redzari/redzari/DSC_0191.jpg"} width="260px" height="400px" alt="" />
+                <img src={img2} width="260px" height="400px" alt="" />
               </div>
               <div className="content">
                 {/* <span className="date pink-date">{date}</span> */}
@@ -64,7 +68,7 @@ class LatestArticleV5 extends Component {
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div className="article-style-02">
               <div className="thumb">
-                <img src={publicUrl + "assets/redzari/redzari/DSC_0272.jpg"} width="260px" height="400px" alt="" />
+                <img src={img3} width="260px" height="400px" alt="" />
               </div>
               <div className="content">
                 {/* <span className="date pink-date">{date}</span> */}
@@ -79,7 +83,7 @@ class LatestArticleV5 extends Component {
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div className="article-style-02">
               <div className="thumb">
-                <img src={publicUrl + "assets/redzari/redzari/DSC_0272.jpg"} width="260px" height="400px" alt="" />
+                <img src={img4} width="260px" height="400px" alt="" />
               </div>
               <div className="content">
                 {/* <span className="date pink-date">{date}</span> */}

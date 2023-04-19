@@ -1,0 +1,35 @@
+.slider-container{
+	/* margin: 40px; */
+	margin-top: 100px;
+}
+
+.slider-image{
+  height: 450px;
+	width: 300px;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10%;
+}
+
+.latest-collection img{
+	width: 260px;
+	height: 400px;
+}
+
+.latest-collection h5{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:black;
+}
+
+.latest-collection p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+
+.latestSlider-container{
+  margin: 80px;
+}

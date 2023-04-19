@@ -37,7 +37,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0255.JPG"} alt="" />
-                    <span className="out">SOLD OUT</span>
+                    {/* <span className="out">SOLD OUT</span> */}
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
                       <li className="stone-go-top"><Link to="/product-details"><i className="icon-quick-view" /></Link></li>
@@ -68,7 +68,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0232.JPG"} alt="" />
-                    <span className="sale">SALE 13%</span>
+                    {/* <span className="sale">SALE 13%</span> */}
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
                       <li className="stone-go-top"><Link to="/product-details"><i className="icon-quick-view" /></Link></li>
@@ -99,7 +99,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0286.JPG"} alt="" />
-                    <span className="sale">SALE 13%</span>
+                    {/* <span className="sale">SALE 13%</span> */}
                     <span className="new margin-top-35">NEW</span>
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
@@ -131,7 +131,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0286.JPG"} alt="" />
-                    <span className="sale">SALE 13%</span>
+                    {/* <span className="sale">SALE 13%</span> */}
                     <span className="new margin-top-35">NEW</span>
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
@@ -163,7 +163,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0286.JPG"} alt="" />
-                    <span className="sale">SALE 13%</span>
+                    {/* <span className="sale">SALE 13%</span> */}
                     <span className="new margin-top-35">NEW</span>
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
@@ -256,13 +256,13 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0227.JPG"} alt="" />
-                    <span className="sale">SALE! 13%</span>
+                    {/* <span className="sale">SALE! 13%</span> */}
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
                       <li className="stone-go-top"><Link to="/product-details"><i className="icon-quick-view" /></Link></li>
                     </ul>
-                    <div className="product-countdown clockdiv" data-countdown="2021/02/02">
-                    </div>
+                    {/* <div className="product-countdown clockdiv" data-countdown="2021/02/02">
+                    </div> */}
                   </div>
                   <div className="content text-left">
                     <span className="brand">BRAND:GEEK</span>
@@ -354,7 +354,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0232.JPG"} alt="" />
-                    <span className="sale">SALE! 13%</span>
+                    {/* <span className="sale">SALE! 13%</span> */}
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
                       <li className="stone-go-top"><Link to="/product-details"><i className="icon-quick-view" /></Link></li>
@@ -385,7 +385,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0255.JPG"} alt="" />
-                    <span className="out">SOLD OUT</span>
+                    {/* <span className="out">SOLD OUT</span> */}
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
                       <li className="stone-go-top"><Link to="/product-details"><i className="icon-quick-view" /></Link></li>
@@ -416,7 +416,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0298.JPG"} alt="" />
-                    <span className="sale">SALE 13%</span>
+                    {/* <span className="sale">SALE 13%</span> */}
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
                       <li className="stone-go-top"><Link to="/product-details"><i className="icon-quick-view" /></Link></li>
@@ -447,7 +447,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0260.JPG"} alt="" />
-                    <span className="sale">SALE 13%</span>
+                    {/* <span className="sale">SALE 13%</span> */}
                     <span className="new margin-top-35">NEW</span>
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
@@ -483,7 +483,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0246.JPG"} alt="" />
-                    <span className="sale">SALE! 13%</span>
+                    {/* <span className="sale">SALE! 13%</span> */}
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
                       <li className="stone-go-top"><Link to="/product-details"><i className="icon-quick-view" /></Link></li>
@@ -514,7 +514,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0279.JPG"} alt="" />
-                    <span className="sale">SALE 13%</span>
+                    {/* <span className="sale">SALE 13%</span> */}
                     <span className="new margin-top-35">NEW</span>
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
@@ -546,7 +546,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0203.JPG"} alt="" />
-                    <span className="out">SOLD OUT</span>
+                    {/* <span className="out">SOLD OUT</span> */}
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
                       <li className="stone-go-top"><Link to="/product-details"><i className="icon-quick-view" /></Link></li>
@@ -577,7 +577,7 @@ class NewArivalV2 extends Component {
                 <div className="product-style-02 margin-top-40">
                   <div className="thumb">
                     <img src={publicUrl + "assets/redzari/redzari/DSC_0244.JPG"} alt="" />
-                    <span className="sale">SALE 13%</span>
+                    {/* <span className="sale">SALE 13%</span> */}
                     <ul className="cart-action-02">
                       <li><a href="#"><i className="icon-heart" /></a></li>
                       <li className="stone-go-top"><Link to="/product-details"><i className="icon-quick-view" /></Link></li>

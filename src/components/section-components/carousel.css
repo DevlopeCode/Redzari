@@ -1,0 +1,7 @@
+.banner img{
+	height: 700px;
+	width: 100%;
+	background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}

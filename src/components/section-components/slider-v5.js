@@ -12,9 +12,9 @@ class SliderV5 extends Component {
 
 
     return <div className="banner-style-01">
-      <div className="banner-slider">
+      <div className="banner-slider"  >
         <div>
-          <div className="height__100vh d-flex align-items-center" style={{ background: 'url("' + publicUrl + 'assets/img/banner/the-latest.webp") no-repeat center center/cover' }}>
+          <div className="height__100vh d-flex align-items-center" style={{ background: 'url("' + publicUrl + 'assets/img/banner/the-latest.webp") no-repeat center center/cover'}}>
             <div className="container-fluid px-5">
               <div className="banner-content">
                 <h3 className="subtitle" data-animation-in="fadeInLeft">30% OFF</h3>
