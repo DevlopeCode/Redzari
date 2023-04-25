@@ -7,11 +7,12 @@ import Instagram from './section-components/instagram';
 import Footer from './global-components/footer';
 import NavbarV5 from './global-components/navbar-v5';
 
-const ProductDetails = () => {
+const ProductDetails = (props) => {
+    console.log("++++++++++++++++++++++", );
     return <div>
         <NavbarV5 />
         <PageHeader headertitle="Shop" subheader="Product Details" />
-        <SingleProduct />
+        <SingleProduct {...props}/>
         <RelatedProduct />
         <Instagram />
         <Footer />

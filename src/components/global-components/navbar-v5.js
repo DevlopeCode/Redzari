@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import img from "../../assets/logo/Delivery/Png/Ver 1/Logo White-02.png"
+import { logoutUser } from '../redux/apiCalls';
 import Category from '../section-components/category';
 import './navbar-v5.css'
 
@@ -253,6 +254,7 @@ class NavbarV5 extends Component {
 											<a href="#"><i className="icon-user" /></a>
 											<ul className="user-dropdown">
 												<Link to="/login" ><li><a href="#">Sign In | Join</a></li></Link>
+												<Link><li><a onClick={logoutUser()}>Log out</a></li></Link>
 												<Link to="/account" ><li><a href="#"><i className="icon-user" /> My Account</a></li></Link>
 												<li><a href="#"><i className="fa fa-briefcase" /> My Orders</a></li>
 												<li><a href="#"><i className="fa fa-reply" /> Returns Information</a></li>

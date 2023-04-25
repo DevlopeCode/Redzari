@@ -1,19 +1,30 @@
 import React, { Component } from 'react';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getProducts } from '../redux/apiCalls';
+import { getProducts, getSingleProducts } from '../redux/apiCalls';
 import ProductSlider from '../section-components/product-slider';
 import { useSelector, useDispatch } from 'react-redux'
+
+
+
+
 function Collection() {
 	let publicUrl = process.env.PUBLIC_URL + '/'
 	let imagealt = 'image'
 	const dispatch = useDispatch()
 	const { product: { error, isFetching, products } } = useSelector(state => state)
 	console.log(products);
-	useEffect(() => {
-		getProducts(dispatch)
 
-	}, [])
+
+
+	const GetItemDetils =(id)=>{
+		getSingleProducts(dispatch,id)
+
+	}
+	// useEffect(() => {
+	// 	getProducts(dispatch)
+
+	// }, [])
 
 	return (
 		<div className="collection-area margin-top-60">
@@ -47,7 +58,7 @@ function Collection() {
 								<div className="row">
 								{products.map((item,index)=>{
 									return(
-										<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+										<div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12" onClick={()=>GetItemDetils(item._id)}>
 											<div className="product-style-03 margin-top-40">
 												<div className="thumb">
 													<img src={publicUrl + "assets/redzari/redzari/DSC_0246.JPG"} alt="" />
@@ -65,9 +76,15 @@ function Collection() {
 														<li><a href="#"><i className="fa fa-star-o" /></a></li>
 														<li><a href="#"><i className="fa fa-star-o" /></a></li>
 													</ul>
-													<h6 className="title stone-go-top"><Link to="/product-details">{item.title}</Link></h6>
+													<h6 className="title stone-go-top"><Link to={{
+														pathname: "/product-details",
+														state: {
+															item: item,
+														},
+													}}>{item.title}</Link></h6>
 													<div className="content-price d-flex align-self-center justify-content-center">
 														<span className="new-price">${item.price}</span>
+															<p>{item._id}</p>
 													</div>
 												</div>
 											</div>

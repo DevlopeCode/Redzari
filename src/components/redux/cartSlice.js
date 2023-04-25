@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import axios from "axios";
 
 const initialState = {
 	cartItem: [],
@@ -11,10 +12,11 @@ const cartSlice = createSlice({
 	name: "cart",
 	initialState,
 	reducers: {
-		addToCart(state, action) {
+	 async addToCart(state, action) {
 			const itemIndex = state.cartItem.findIndex(item => item.id === action.payload.id)
 			if (itemIndex >= 0) {
 				state.cartItem[itemIndex].cartQuantity += 1
+				const rsponse = await axios.post("https://redzari-backend.onrender.com/api/carts", action.payload.id)
 			} else {
 				const tempProduct = { ...action.payload, cartQuantity: 1 }
 				state.cartItem.push(tempProduct);

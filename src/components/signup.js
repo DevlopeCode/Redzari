@@ -1,9 +1,9 @@
 import styled from "styled-components";
+import { Link as RouteLink} from "react-router-dom";
 import { useState, useEffect } from "react";
-import { login } from "../components/redux/apiCalls";
+import { login, signup } from "../components/redux/apiCalls";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { Link as RouteLink} from "react-router-dom";
 // import { logout } from "../../redux/userRedux";
 const Container = styled.div`
   width: 100vw;
@@ -64,19 +64,21 @@ const Link = styled.a`
   cursor: pointer;
 `;
 
-const Login = () => {
+const Signup = () => {
 	const { user, isFetching, isError } = useSelector((state) => state.user);
 	const dispatch = useDispatch();
 	const navigate = useHistory();
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
+	const [email, setEmail] =  useState("");
 	const handleClick = (e) => {
 		e.preventDefault();
 		const user = {
-			email: username,
+			email: email,
 			password: password,
+			username: username
 		};
-		login(dispatch, user);
+		signup(dispatch, user);
 
 
 	};
@@ -90,26 +92,32 @@ const Login = () => {
 	return (
 		<Container>
 			<Wrapper>
-				<Title>SIGN IN</Title>
+				<Title>NEW USER</Title>
 				<Form>
+					<Input
+						placeholder="email"
+						value={email}
+						onChange={(e) => setEmail(e.target.value)}
+					/>
 					<Input
 						placeholder="username"
 						value={username}
 						onChange={(e) => setUsername(e.target.value)}
 					/>
+
 					<Input
 						placeholder="password"
 						value={password}
 						onChange={(e) => setPassword(e.target.value)}
 					/>
-					<Button onClick={handleClick}>LOGIN</Button>
+					<Button onClick={handleClick}>Sign Up</Button>
 					{/* {isError && (
             <p style={{ color: "red" }}>
               Something went wrong...Check your credentials
             </p>
           )} */}
-					<RouteLink>DO NOT YOU REMEMBER THE PASSWORD?</RouteLink>
-					<RouteLink to='/signup'>CREATE A NEW ACCOUNT</RouteLink>
+					<RouteLink>Already have an account</RouteLink>
+					<RouteLink to='/login' >Log In</RouteLink>
 				</Form>
 				<div>
 				</div>
@@ -118,4 +126,4 @@ const Login = () => {
 	);
 };
 
-export default Login;
+export default Signup;

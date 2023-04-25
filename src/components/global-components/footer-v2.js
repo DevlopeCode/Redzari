@@ -31,7 +31,7 @@ class Footer_v2 extends Component {
                   <Link to="/">
                     <img src={img} height="100px" width="100px" alt="" />
                   </Link>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sem non massa viverra posuere. Etiam risus lorem, tempor pretium eleifend et, maximus a magna.</p>
+                  <p>Redzari</p>
                   <ul>
                     <li><a href="https://www.facebook.com/codingeek"><i className="icon-facebook" /></a></li>
                     <li><a href="https://www.instagram.com/codingeek"><i className="icon-instagram" /></a></li>

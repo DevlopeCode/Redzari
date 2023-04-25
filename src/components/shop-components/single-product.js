@@ -1,10 +1,27 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector,useDispatch } from 'react-redux';
+import { getSingleProducts } from '../redux/apiCalls';
+import { useEffect } from 'react';
+import { getSingleProductStart } from '../redux/productRedux';
 
-class SingleProduct extends Component {
-  render() {
+
+
+
+
+function SingleProduct(props){
+	console.log("arzoo", props.location.state);
+
+
     let publicUrl = process.env.PUBLIC_URL+'/'
     let imagealt = 'image'
+	const dispatch = useDispatch()
+
+		const { product: { error, isFetching, products } } = useSelector(state => state)
+		console.log(products);
+		useEffect(() => {
+			getSingleProductStart(dispatch)
+		}, []);
 
     return (
       <div className="collection-area margin-top-60">
@@ -292,11 +309,17 @@ class SingleProduct extends Component {
 		      </div>
 		    </div>
 		  </div>
+
+			{products.map((item,index)=>{
+				return(
+					<p>{item.title}</p>
+				)
+			})}
 		</div>
 
 
     )
   }
-}
+
 
 export default SingleProduct;
